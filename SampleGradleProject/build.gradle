@@ -27,3 +27,16 @@ dependencies {
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
 }
+
+   task mycustomtask{
+   
+        group "custom tasks"
+        description "my custom tasks"
+        
+        doLast{
+        
+            println "this is my custom task"
+            
+        }    
+
+   }
